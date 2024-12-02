@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:01/12/2024
+## Date:02/12/2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -60,14 +60,14 @@ Publish the website in the LocalHost.
         
         
         .hrstyle{
-            width:100px;
+            width:145px;
         }
         .author{
         
             display: inline;
             position: relative;
             color:rgb(255, 255, 255);
-            top:170px;
+            top:100px;
             
             font-family:Georgia;
             font-size: medium;
@@ -78,13 +78,13 @@ Publish the website in the LocalHost.
             font-size: larger;
             text-align: left;
             position: relative;
-            top: 30px;
+            top: 10px;
         
         }
         .id {
             width:400px;
             position: relative;
-            top:180px;
+            top:100px;
             
         }
         .pub{
@@ -99,7 +99,7 @@ Publish the website in the LocalHost.
             font-size: medium;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             position:relative;
-            bottom:200px;
+            bottom:220px;
         
         }
         .subtitle{
@@ -107,18 +107,25 @@ Publish the website in the LocalHost.
             font-family:unicorn;
             font-size: large;
             position: relative;
-            top:40px;
+            top:35px;
+        }
+        .subtitle1{
+            color:azure;
+            font-family:unicorn;
+            font-size: large;
+            position: relative;
+            top:60px;
         }
         .sub{
             color:azure;
             font-family:Arial, Helvetica, sans-serif;
             font-size: large;
             position: relative;
-            top:340px;
+            top:250px;
         }
         .mypic{
             position: relative;
-            top: 135px;
+            top: 105px;
             left: 260px;
             width: 90px;
             height: 80px;
@@ -138,28 +145,28 @@ Publish the website in the LocalHost.
         <body>
         <div class="bookpage">
             <div class="insight">
-                DAW-Series M
+                Server Development
             </div>
             <div class="hrstyle">
                 <hr style="color:blanchedalmond">
             </div>
             <div class="booktitle">
-                <h1 style="font-family: 'Times New Roman', Times, serif; color:wheat;">Complete Music Composing Bundle</h1></div>
+                <h1 style="font-family: 'Times New Roman', Times, serif; color:wheat;">Full-Stack Symphony: Mastering CSS, Java, and Python</h1></div>
             <div class="subtitle" style="text-align: left;color: rgb(189, 229, 126);">
                  Easy Steps to Build Yourself
             </div>
-            <div class="subtitle" style="color: rgb(193, 172, 133);text-align: left;">
+            <div class="subtitle1" style="color: rgb(193, 172, 133);text-align: left;">
                  REVISED CONTENT
             </div>
             <div class="sub" style="color: rgb(193, 172, 133);text-align: left;">
-                A MUSICAL BOOK TO ALL YOUR QUESTIONS
+                A TECHNICAL BOOK TO EVOLVE
            </div>
 
             <div class="mypic">
                 <img src="Pic.jpg" width="120" height="120" >
             </div>
             <div class="lpic">
-                <img src="apple.png" width="90" height="90" >
+                <img src="apple (2).png" width="90" height="90" >
             </div>
             <div class="id">
                 <hr style="color:blanchedalmond">
@@ -168,14 +175,13 @@ Publish the website in the LocalHost.
                <p><b>AKSHAY KARTHICK ASR</b></p>
             </div>
             <div class="ed">
-                <b>FRUITY LOOPS WORKSTATION</b>
+                <b>FULL STACK WORKSTATION</b>
             </div>
         </div>
         </body>
         
 
 </html>
-
 
 ```
 
